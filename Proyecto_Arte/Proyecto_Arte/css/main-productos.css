@@ -1,0 +1,9 @@
+.card{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+}
+.card-img-top{
+    border-radius: 7px;
+    padding: 2px;
+}

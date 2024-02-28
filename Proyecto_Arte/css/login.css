@@ -1,0 +1,30 @@
+/*Boton ir atras*/
+.atras{
+    font-size: 1.3em;
+    color: white;
+    padding: 10px;
+}
+.atras:hover{
+    text-decoration: none;
+    color: #FF12CFFF;
+}
+/*Body*/
+body{
+    background-color: black;
+}
+body::after{
+    position: absolute;
+    content: '';
+    height: 5px;
+    width: 100%;
+    background-image: linear-gradient(90deg, #1100FFFF 0%, #FF12CFFF 100%);
+    bottom: 0;
+}
+body::before{
+    position: absolute;
+    content: '';
+    height: 5px;
+    width: 100%;
+    background-image: linear-gradient(90deg, #FF12CFFF 0%, #1100FFFF 100%);
+    top: 0;
+}
